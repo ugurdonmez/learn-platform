@@ -1,0 +1,22 @@
+.Content {
+    width: 1000px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.CardCenterWidth {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.CourseOverview {
+}
+
+.CourseContent {
+}
+
+.LessonTitle {
+    display: flex;
+    justify-content: space-between;
+}

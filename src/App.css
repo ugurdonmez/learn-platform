@@ -1,22 +1,15 @@
-.App {
-  text-align: center;
+.CoursesContent {
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
+.Wrapper {
+  margin: 25px auto;
+  width: 1000px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.CourseItem {
+  float: left;
+  margin: 0 1.5% 25px;
+  overflow: hidden;
+  width: 47%;
 }
