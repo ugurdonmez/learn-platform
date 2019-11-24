@@ -1,7 +1,7 @@
 import React from 'react'
 import './Body.css'
 import { Card, Row, Col, Accordion, Button, ListGroup } from 'react-bootstrap'
-import logo from '../assets/python_logo.png'
+import python_logo from '../../assets/python_logo.png'
 
 export default function Body(props) {
     return (
@@ -10,7 +10,7 @@ export default function Body(props) {
                 <Card.Body>
                     <Row>
                         <Col xs={3}>
-                            <Card.Img src={logo} />
+                            <Card.Img src={python_logo} />
                         </Col>
 
                         <Col xs={9}>
